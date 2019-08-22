@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A8C61"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar" />
+
+    <Button
+        android:id="@+id/btnsholat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gambar"
+        android:text="Jadwal Sholat" />
+
+    <Button
+        android:id="@+id/btnhalal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnsholat"
+        android:text="Produk Halal" />
+
+    <Button
+        android:id="@+id/btndoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnhalal"
+        android:text="Doa Harian" />
+    <TextView
+        android:id="@+id/teks"
+        android:text="Universitas Pelita Bangsa"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@+id/btndoa"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
